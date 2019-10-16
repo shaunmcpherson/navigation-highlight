@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #fff;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: "Sigmar One", sans-serif;
+  text-align: center;
+  color: #b20953;
+}
+
+h2 {
+  font-family: "Sigmar One", sans-serif;
+  color: #b20953;
+}
