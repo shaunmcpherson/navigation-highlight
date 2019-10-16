@@ -16,12 +16,14 @@ header {
 
 h1 {
   font-family: "Sigmar One", sans-serif;
+  font-size: 3rem;
   text-align: center;
   color: #b20953;
 }
 
 h2 {
   font-family: "Sigmar One", sans-serif;
+  font-size: 1.875rem;
   color: #b20953;
 }
 
@@ -41,7 +43,6 @@ nav li {
   padding: .6em;
   background-color: #b20953;
   border-radius: 4px;
-  font-family: sans-serif;
   color: #fff;
   text-decoration: none;
   text-align: center;
@@ -52,10 +53,15 @@ nav li {
   background-color: #b2a212;
 }
 
+p {
+  font-size: 1.125rem;
+}
+
 img {
   max-width: 100%
 }
 
 footer {
   background-color: #ffe500;
+  font-size: .75rem;
 }
