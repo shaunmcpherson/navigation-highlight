@@ -10,6 +10,10 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  background-color: #ffe500;
+}
+
 h1 {
   font-family: "Sigmar One", sans-serif;
   text-align: center;
@@ -19,4 +23,39 @@ h1 {
 h2 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.current {
+  display: inline-block;
+  padding: .6em;
+  background-color: #b20953;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.inactive {
+  background-color: #b2a212;
+}
+
+img {
+  max-width: 100%
+}
+
+footer {
+  background-color: #ffe500;
 }
