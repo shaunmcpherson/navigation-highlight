@@ -22,6 +22,10 @@ header {
   padding: 0 0 .3em;
 }
 
+header nav:last-of-type a:not(.current) {
+  background-color: #cc1465;
+}
+
 h1 {
   font-family: "Sigmar One", sans-serif;
   font-size: 3rem;
@@ -73,7 +77,7 @@ main p {
 }
 
 nav a:hover {
-  background-color: #cc1465;
+
 }
 
 img {
