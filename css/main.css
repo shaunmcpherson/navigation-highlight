@@ -75,7 +75,7 @@ nav a:hover {
 
 img {
   display: block;
-  width: auto;
+  width: 100%;
   max-width: 100%;
 }
 
