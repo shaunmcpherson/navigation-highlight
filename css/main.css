@@ -49,10 +49,10 @@ nav li {
   font-size: 1.125em;
 }
 
-.current {
+.inactive {
   display: inline-block;
   padding: .2em .5em .3em;
-  background-color: #b20953;
+  background-color: #b2a212;
   border-radius: 4px;
   color: #fff;
   text-decoration: none;
@@ -60,8 +60,8 @@ nav li {
   line-height: 1.5;
 }
 
-.inactive {
-  background-color: #b2a212;
+.current {
+  background-color: #b20953;
 }
 
 main {
